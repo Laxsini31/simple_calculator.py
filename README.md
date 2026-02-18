@@ -1,1 +1,16 @@
-# simple_calculator.py
+a=int(input())
+b=int(input())
+op=input()
+if op=='+':
+    print(a+b)
+elif op=='-':
+    print(a-b)
+elif op=='*':
+    print(a*b)
+elif op=='/':
+    print(a/b)
+    
+Output
+
+10
+5*50
